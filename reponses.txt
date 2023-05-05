@@ -1,0 +1,10 @@
+a)La commande git pull effectue deux actions en une seule commande. Elle commence par récupérer les dernières modifications du référentiel distant à l'aide de la commande git fetch, puis elle fusionne automatiquement ces modifications avec votre branche locale. Cela signifie que git pull récupère les modifications et met à jour votre copie locale en même temps.
+
+La commande git fetch, quant à elle, ne fusionne pas automatiquement les modifications du référentiel distant avec votre branche locale.
+ Elle télécharge simplement les dernières modifications sur votre ordinateur, sans les fusionner avec votre code existant
+
+b) on utilise  la commande git checkout.Cette commande permet de restaurer un fichier ou un dossier dans l'état où il se trouvait lors du dernier commit enregistré dans votre branche.
+
+C) on utilise la commande git push avec l'option --delete 
+
+d)Pour voir l'historique des modifications pour un fichier spécifique dans Git, vous pouvez utiliser la commande git log avec l'option --follow 
